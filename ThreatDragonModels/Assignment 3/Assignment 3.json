@@ -1342,49 +1342,6 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "cab210b5-e386-4ffb-bb54-d4a628397059",
-                "839671aa-9978-42c9-a177-d27670993a61"
-              ],
-              "containedElements": [
-                "a648beb8-34bf-4402-b73d-3c2bbcc23dea"
-              ]
-            },
-            "labels": [
-              ""
-            ],
-            "id": "2b001b37-83ab-4c1d-a4d0-7bd0310cb950",
-            "source": {
-              "x": 1370,
-              "y": 440
-            },
-            "target": {
-              "x": 1370,
-              "y": 650
-            },
-            "vertices": [
-              {
-                "x": 1240,
-                "y": 480
-              },
-              {
-                "x": 1240,
-                "y": 610
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [
                 "bed344fc-da54-49fa-b624-8705495674c2",
                 "fbbb2fe1-cb37-4cbe-9df1-79a2b8388460",
                 "09f094df-9f92-42e3-a702-00015128ec34"
@@ -1843,6 +1800,49 @@
               "cell": "80e6922d-2ed4-4d24-911d-86b937baf59e",
               "port": "d163f0b0-c98e-43dc-a622-5e383ff83e9e"
             }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "cab210b5-e386-4ffb-bb54-d4a628397059",
+                "839671aa-9978-42c9-a177-d27670993a61"
+              ],
+              "containedElements": [
+                "a648beb8-34bf-4402-b73d-3c2bbcc23dea"
+              ]
+            },
+            "labels": [
+              ""
+            ],
+            "id": "2b001b37-83ab-4c1d-a4d0-7bd0310cb950",
+            "source": {
+              "x": 1370,
+              "y": 440
+            },
+            "target": {
+              "x": 1370,
+              "y": 650
+            },
+            "vertices": [
+              {
+                "x": 1240,
+                "y": 480
+              },
+              {
+                "x": 1240,
+                "y": 610
+              }
+            ]
           },
           {
             "position": {
@@ -3314,17 +3314,17 @@
               "y": 170
             },
             "target": {
-              "x": -20,
-              "y": 10
+              "x": -30,
+              "y": 60
             },
             "vertices": [
               {
-                "x": 200,
-                "y": 180
+                "x": 190,
+                "y": 190
               },
               {
-                "x": 200,
-                "y": 60
+                "x": 190,
+                "y": 80
               }
             ]
           },
