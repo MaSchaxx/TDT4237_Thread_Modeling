@@ -414,7 +414,7 @@
                   "id": "d471b7e7-6cb0-4908-92f8-ea6bcf0e4d60",
                   "title": "Invoice manipulation",
                   "status": "Open",
-                  "severity": "High",
+                  "severity": "Low",
                   "type": "Tampering",
                   "description": "Attackers may alter billing data to reduce charges or commit fraud.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -439,7 +439,7 @@
               ],
               "threatFrequency": {
                 "spoofing": 0,
-                "tampering": 1,
+                "tampering": 2,
                 "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
@@ -2593,7 +2593,7 @@
                   "id": "012e5fd8-ff0b-4540-a3a0-78ed3894bdfa",
                   "title": "Sensitive data exposure",
                   "status": "Open",
-                  "severity": "High",
+                  "severity": "Critical",
                   "type": "Information disclosure",
                   "description": "Unauthorized access to pseudonymized guest identities and personal data may occur.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -2606,7 +2606,7 @@
               "threatFrequency": {
                 "tampering": 0,
                 "repudiation": 0,
-                "informationDisclosure": 1,
+                "informationDisclosure": 2,
                 "denialOfService": 0
               }
             }
@@ -3220,7 +3220,7 @@
                   "id": "596642b7-d928-4d6e-a3f1-08e950b8fafe",
                   "title": "Surveillance leakage",
                   "status": "Open",
-                  "severity": "High",
+                  "severity": "Critical",
                   "type": "Information disclosure",
                   "description": "Video footage of guests could be accessed or leaked.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -3233,16 +3233,9 @@
               "threatFrequency": {
                 "tampering": 0,
                 "repudiation": 0,
-                "informationDisclosure": 1,
+                "informationDisclosure": 2,
                 "denialOfService": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -3367,7 +3360,7 @@
                   "id": "e8c733c6-047a-4668-93b4-99d722e19fa4",
                   "title": "False input attack",
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "Low",
                   "type": "Repudiation",
                   "description": "Attackers may use manipulated appearances (e.g., masks/glasses, stealth clothing) to evade or trick recognition.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -3380,7 +3373,7 @@
               "threatFrequency": {
                 "spoofing": 0,
                 "tampering": 0,
-                "repudiation": 1,
+                "repudiation": 2,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
@@ -3506,7 +3499,7 @@
                   "id": "e8069e2d-0254-44e3-a91d-a884508d3b64",
                   "title": "Model poisoning",
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "Low",
                   "type": "Repudiation",
                   "description": "Malicious data inputs could corrupt the AI model, reducing accuracy or enabling bypass.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
@@ -3518,7 +3511,7 @@
               ],
               "threatFrequency": {
                 "spoofing": 0,
-                "repudiation": 1
+                "repudiation": 2
               }
             }
           },
@@ -3666,6 +3659,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 15
+    "threatTop": 16
   }
 }
