@@ -540,7 +540,8 @@
             "target": {
               "cell": "70df05f8-504a-43c8-8c44-1f455cc00e72",
               "port": "a34415b1-72fc-4c1c-800d-c48c80b1b70f"
-            }
+            },
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -562,7 +563,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Creating bookings",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -578,7 +579,7 @@
               ]
             },
             "labels": [
-              "Data Flow"
+              "Creating bookings"
             ],
             "id": "da09285f-9e03-4cae-a38c-0408651b269e",
             "source": {
@@ -590,10 +591,6 @@
               "port": "a34415b1-72fc-4c1c-800d-c48c80b1b70f"
             },
             "vertices": [
-              {
-                "x": 400,
-                "y": 350
-              },
               {
                 "x": 480,
                 "y": 370
@@ -620,7 +617,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "View and pay\ninvoices",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -636,7 +633,7 @@
               ]
             },
             "labels": [
-              "Data Flow"
+              "View and pay\ninvoices"
             ],
             "id": "4529a422-f461-45e5-8961-6d4ec3ebb27b",
             "source": {
@@ -674,7 +671,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Managing bookings",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -690,7 +687,7 @@
               ]
             },
             "labels": [
-              "Data Flow"
+              "Managing bookings"
             ],
             "id": "bed344fc-da54-49fa-b624-8705495674c2",
             "source": {
@@ -705,60 +702,6 @@
               {
                 "x": 480,
                 "y": 480
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "19660e14-fb8a-4e68-a5d1-0b533ddcea55"
-              ]
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "792e0e75-ce83-484d-b98b-92ef58e1bab8",
-            "source": {
-              "cell": "6e2e8c86-fc27-41ac-bf24-a543fd28f0e8",
-              "port": "2891d3cc-1022-4f1a-94ae-5d11f9a42316"
-            },
-            "target": {
-              "cell": "70df05f8-504a-43c8-8c44-1f455cc00e72",
-              "port": "a34415b1-72fc-4c1c-800d-c48c80b1b70f"
-            },
-            "vertices": [
-              {
-                "x": 460,
-                "y": 430
               }
             ]
           },
@@ -1014,7 +957,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "",
+              "name": "Using",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1028,7 +971,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              ""
+              "Using"
             ],
             "id": "d0f9ff20-252c-4c09-9148-159f71f31565",
             "source": {
@@ -1038,7 +981,8 @@
             "target": {
               "cell": "b9e6be6d-f256-460f-9f55-c36bcba8fab5",
               "port": "a34415b1-72fc-4c1c-800d-c48c80b1b70f"
-            }
+            },
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1442,7 +1386,6 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "bed344fc-da54-49fa-b624-8705495674c2",
-                "792e0e75-ce83-484d-b98b-92ef58e1bab8",
                 "fbbb2fe1-cb37-4cbe-9df1-79a2b8388460",
                 "09f094df-9f92-42e3-a702-00015128ec34"
               ],
@@ -3405,7 +3348,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Billing guests",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -3421,7 +3364,7 @@
               ]
             },
             "labels": [
-              "Data Flow"
+              "Billing guests"
             ],
             "id": "09f094df-9f92-42e3-a702-00015128ec34",
             "source": {
