@@ -514,7 +514,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Registering",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -530,7 +530,7 @@
               ]
             },
             "labels": [
-              "Data Flow"
+              "Registering"
             ],
             "id": "079e59c7-79fa-40bd-a0b1-69e4ac19bb7b",
             "source": {
@@ -591,6 +591,10 @@
             },
             "vertices": [
               {
+                "x": 400,
+                "y": 350
+              },
+              {
                 "x": 480,
                 "y": 370
               }
@@ -649,54 +653,6 @@
                 "y": 420
               }
             ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "19660e14-fb8a-4e68-a5d1-0b533ddcea55"
-              ]
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "09f094df-9f92-42e3-a702-00015128ec34",
-            "source": {
-              "cell": "6e2e8c86-fc27-41ac-bf24-a543fd28f0e8",
-              "port": "2891d3cc-1022-4f1a-94ae-5d11f9a42316"
-            },
-            "target": {
-              "cell": "86bae67b-e28d-4b33-bebf-cf478f95c32f",
-              "port": "a34415b1-72fc-4c1c-800d-c48c80b1b70f"
-            }
           },
           {
             "shape": "flow",
@@ -1104,55 +1060,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "2b001b37-83ab-4c1d-a4d0-7bd0310cb950"
-              ]
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "cab210b5-e386-4ffb-bb54-d4a628397059",
-            "source": {
-              "cell": "80e6922d-2ed4-4d24-911d-86b937baf59e",
-              "port": "d163f0b0-c98e-43dc-a622-5e383ff83e9e"
-            },
-            "target": {
-              "cell": "a648beb8-34bf-4402-b73d-3c2bbcc23dea",
-              "port": "18244726-0c03-49c1-9094-abefe050d242"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Reading and\nwriting data",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1166,7 +1074,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Reading and\nwriting data"
             ],
             "id": "af9654d6-4956-4425-b57f-2fff16a6d493",
             "source": {
@@ -1176,7 +1084,8 @@
             "target": {
               "cell": "832728cb-e2f1-472a-a9f0-4af84c05cc96",
               "port": "0886d4b3-3020-4d7d-93b7-73f785be58dd"
-            }
+            },
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1198,7 +1107,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Reading and\nwriting data",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1212,7 +1121,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Reading and\nwriting data"
             ],
             "id": "3bfd2fd8-0da8-4975-bddd-fd236f5192af",
             "source": {
@@ -1222,7 +1131,8 @@
             "target": {
               "cell": "a222b585-3e96-4819-8cd6-c87bdf1f3911",
               "port": "0886d4b3-3020-4d7d-93b7-73f785be58dd"
-            }
+            },
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1244,7 +1154,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Get\nobserved",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1261,7 +1171,7 @@
               ]
             },
             "labels": [
-              "Data Flow"
+              "Get\nobserved"
             ],
             "id": "3449441b-0566-43a3-9c77-e65bd3fceee9",
             "source": {
@@ -1293,7 +1203,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Get\nobserved",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1310,7 +1220,7 @@
               ]
             },
             "labels": [
-              "Data Flow"
+              "Get\nobserved"
             ],
             "id": "fbbb2fe1-cb37-4cbe-9df1-79a2b8388460",
             "source": {
@@ -1352,7 +1262,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Serving\nraw data",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1368,7 +1278,7 @@
               ]
             },
             "labels": [
-              "Data Flow"
+              "Serving\nraw data"
             ],
             "id": "1fcee79f-c73d-40d0-a604-ed1e8632c185",
             "source": {
@@ -1378,7 +1288,8 @@
             "target": {
               "cell": "07e428ef-bb17-4900-9f45-30390cd85858",
               "port": "a34415b1-72fc-4c1c-800d-c48c80b1b70f"
-            }
+            },
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1400,7 +1311,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Writing\nvideo data",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1414,7 +1325,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Writing\nvideo data"
             ],
             "id": "c9560202-adb5-432d-8bcb-a80eb48105a8",
             "source": {
@@ -1424,7 +1335,8 @@
             "target": {
               "cell": "0a91e916-d151-4cff-bf2b-4c2397c10304",
               "port": "a91756d1-6d05-4aff-bc5d-eb8684769c0e"
-            }
+            },
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1474,60 +1386,6 @@
             "vertices": []
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "0cc8c01c-4040-4265-bc5e-ff1f2fb1209f"
-              ]
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "40c05911-efb8-45b7-a144-6fcd8b80abf8",
-            "source": {
-              "cell": "69538aec-3213-49b2-b031-1298178ff70f",
-              "port": "d163f0b0-c98e-43dc-a622-5e383ff83e9e"
-            },
-            "target": {
-              "cell": "b9e6be6d-f256-460f-9f55-c36bcba8fab5",
-              "port": "7948b185-a6bc-4a60-abbf-6f71745ba3b3"
-            },
-            "vertices": [
-              {
-                "x": 990,
-                "y": -10
-              }
-            ]
-          },
-          {
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
@@ -1540,7 +1398,8 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "cab210b5-e386-4ffb-bb54-d4a628397059"
+                "cab210b5-e386-4ffb-bb54-d4a628397059",
+                "839671aa-9978-42c9-a177-d27670993a61"
               ],
               "containedElements": [
                 "a648beb8-34bf-4402-b73d-3c2bbcc23dea"
@@ -1582,10 +1441,10 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "09f094df-9f92-42e3-a702-00015128ec34",
                 "bed344fc-da54-49fa-b624-8705495674c2",
                 "792e0e75-ce83-484d-b98b-92ef58e1bab8",
-                "fbbb2fe1-cb37-4cbe-9df1-79a2b8388460"
+                "fbbb2fe1-cb37-4cbe-9df1-79a2b8388460",
+                "09f094df-9f92-42e3-a702-00015128ec34"
               ],
               "containedElements": [
                 "6e2e8c86-fc27-41ac-bf24-a543fd28f0e8"
@@ -1672,8 +1531,8 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "40c05911-efb8-45b7-a144-6fcd8b80abf8",
-                "c9c4be17-f6c7-4cb0-94a9-da187bd3992f"
+                "c9c4be17-f6c7-4cb0-94a9-da187bd3992f",
+                "40c05911-efb8-45b7-a144-6fcd8b80abf8"
               ],
               "containedElements": [
                 "69538aec-3213-49b2-b031-1298178ff70f",
@@ -1770,7 +1629,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Serving\nvideo data",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1786,7 +1645,7 @@
               ]
             },
             "labels": [
-              "Data Flow"
+              "Serving\nvideo data"
             ],
             "id": "c9c4be17-f6c7-4cb0-94a9-da187bd3992f",
             "source": {
@@ -1796,7 +1655,8 @@
             "target": {
               "cell": "69538aec-3213-49b2-b031-1298178ff70f",
               "port": "a34415b1-72fc-4c1c-800d-c48c80b1b70f"
-            }
+            },
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1842,6 +1702,203 @@
             "target": {
               "cell": "69538aec-3213-49b2-b031-1298178ff70f",
               "port": "a91756d1-6d05-4aff-bc5d-eb8684769c0e"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Processing\ndata",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Processing\ndata"
+            ],
+            "id": "d40ecbb7-6435-4c60-909e-bba7ac590ed4",
+            "source": {
+              "cell": "69538aec-3213-49b2-b031-1298178ff70f",
+              "port": "a91756d1-6d05-4aff-bc5d-eb8684769c0e"
+            },
+            "target": {
+              "cell": "731962c2-3291-45aa-82dc-2cf1d6ffb50b",
+              "port": "9e36c00d-a6fd-4f29-a0f2-20c63473d26f"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Serving\nguest data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "0cc8c01c-4040-4265-bc5e-ff1f2fb1209f"
+              ]
+            },
+            "labels": [
+              "Serving\nguest data"
+            ],
+            "id": "40c05911-efb8-45b7-a144-6fcd8b80abf8",
+            "source": {
+              "cell": "b9e6be6d-f256-460f-9f55-c36bcba8fab5",
+              "port": "7948b185-a6bc-4a60-abbf-6f71745ba3b3"
+            },
+            "target": {
+              "cell": "69538aec-3213-49b2-b031-1298178ff70f",
+              "port": "d163f0b0-c98e-43dc-a622-5e383ff83e9e"
+            },
+            "vertices": [
+              {
+                "x": 990,
+                "y": -10
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "2b001b37-83ab-4c1d-a4d0-7bd0310cb950"
+              ]
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "cab210b5-e386-4ffb-bb54-d4a628397059",
+            "source": {
+              "cell": "80e6922d-2ed4-4d24-911d-86b937baf59e",
+              "port": "d163f0b0-c98e-43dc-a622-5e383ff83e9e"
+            },
+            "target": {
+              "cell": "a648beb8-34bf-4402-b73d-3c2bbcc23dea",
+              "port": "18244726-0c03-49c1-9094-abefe050d242"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Authenticates",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "2b001b37-83ab-4c1d-a4d0-7bd0310cb950"
+              ]
+            },
+            "labels": [
+              "Authenticates"
+            ],
+            "id": "839671aa-9978-42c9-a177-d27670993a61",
+            "source": {
+              "cell": "a648beb8-34bf-4402-b73d-3c2bbcc23dea",
+              "port": "18244726-0c03-49c1-9094-abefe050d242"
+            },
+            "target": {
+              "cell": "80e6922d-2ed4-4d24-911d-86b937baf59e",
+              "port": "d163f0b0-c98e-43dc-a622-5e383ff83e9e"
             }
           },
           {
@@ -3327,6 +3384,55 @@
                 "y": 60
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 24,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "19660e14-fb8a-4e68-a5d1-0b533ddcea55"
+              ]
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "09f094df-9f92-42e3-a702-00015128ec34",
+            "source": {
+              "cell": "6e2e8c86-fc27-41ac-bf24-a543fd28f0e8",
+              "port": "2891d3cc-1022-4f1a-94ae-5d11f9a42316"
+            },
+            "target": {
+              "cell": "86bae67b-e28d-4b33-bebf-cf478f95c32f",
+              "port": "a34415b1-72fc-4c1c-800d-c48c80b1b70f"
+            },
+            "vertices": []
           }
         ]
       }
